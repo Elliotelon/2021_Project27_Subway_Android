@@ -21,6 +21,10 @@
         android:name="fastcampus.aop.part5.chapter05.presentation.stationarrivals.StationArrivalsFragment"
         tools:layout="@layout/fragment_station_arrivals">
 
+        <argument
+            android:name="station"
+            app:argType="fastcampus.aop.part5.chapter05.domain.Station" />
+
     </fragment>
 
 </navigation>

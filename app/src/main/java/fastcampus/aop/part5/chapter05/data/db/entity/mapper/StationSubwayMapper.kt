@@ -16,7 +16,7 @@ fun StationWithSubwaysEntity.toStation() =
 fun Station.toStationEntity() =
     StationEntity(
         stationName = name,
-        isFavorited = isFavorited
+        isFavorited = isFavorited,
     )
 
 
